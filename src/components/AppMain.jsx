@@ -12,7 +12,7 @@ export default function AppMain() {
             <main className="bg-black">
                 <div className="container">
                     <div className="row">
-                        <div className="col">
+                        <div className="col text-white">
                             Content goes here
                         </div>
                     </div>

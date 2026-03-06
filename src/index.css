@@ -10,3 +10,9 @@
 body {
   font-family: 'Open Sans Variable', sans-serif;
 }
+
+.bg_footer {
+  background-color: black;
+  background-image: url(/public/footer-bg.jpg);
+  
+}
