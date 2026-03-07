@@ -14,5 +14,24 @@ body {
 .bg_footer {
   background-color: black;
   background-image: url(/public/footer-bg.jpg);
-  
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: -1;
+}
+
+.logoFooter{
+  background-image: url(/public/dc-logo-bg.png);
+  background-repeat: no-repeat;
+  background-position: 70% 50%;
+  z-index: 1;
+}
+
+
+#containerIcon {
+  img {
+    width: 3rem;
+    height: 3rem;
+    margin: 1rem;
+  }
 }
