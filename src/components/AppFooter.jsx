@@ -1,4 +1,8 @@
 import footerFacebook from '/footer-facebook.png'
+import footerTwitter from '/footer-twitter.png'
+import footerYoutube from '/footer-youtube.png'
+import footerPinterest from '/footer-pinterest.png'
+import footerPeriscope from '/footer-periscope.png'
 
 
 export default function AppFooter() {
@@ -53,11 +57,18 @@ export default function AppFooter() {
                 </div>
             </div>
             <div className="bg-secondary">
-                <div className="container p-4">
-                    <div className="row">
-                        <div className="col"><button className='btn rounded-0 border-primary border-2'>Sign-up Now</button></div>
-                        <div className="col"><span className=''>Follow US</span>
-                            <img src={footerFacebook} alt="" />
+                <div className="container p-4 socialsLink">
+                    <div className="d-flex justify-content-between">
+                        <div>
+                            <button className='btn rounded-0 border-primary border-2 text-white text-uppercase fw-bolder'>Sign-up Now!</button>
+                        </div>
+                        <div className='d-flex gap-4 flex-wrap'>
+                            <span className='text-primary text-uppercase fs-4 fw-bolder flex-shrink-0'>Follow US</span>
+                            <img src={footerFacebook} alt="footerFacebook" />
+                            <img src={footerTwitter} alt="footerFacebook" />
+                            <img src={footerYoutube} alt="footerFacebook" />
+                            <img src={footerPinterest} alt="footerFacebook" />
+                            <img src={footerPeriscope} alt="footerFacebook" />
                         </div>
                     </div>
                 </div>
