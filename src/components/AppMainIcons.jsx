@@ -10,7 +10,7 @@ export default function AppMainIcons() {
     return (
         <div className="bg-primary">
             <div id='containerIcon' className="container py-4">
-                <div className="row row-cols-1 row-cols-md-2 row-cols-lg-5">
+                <div className="row row-cols-1 row-cols-md-2 row-cols-lg-5 text-white">
                     <div className="col d-flex flex-wrap align-items-center justify-content-center">
                         <img className='img-fluid' src={buyDigitalComics} alt="buyDigitalComics" /> <span className='d-none d-md-inline'>Digital Comics</span>
                     </div>
