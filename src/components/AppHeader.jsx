@@ -1,4 +1,4 @@
-import dc_logo from "/dc-logo.png"
+import dc_logo from "/dc-logo.png" //giusto per ricordarsi come collegare dal public
 
 
 export default function AppHeader() {

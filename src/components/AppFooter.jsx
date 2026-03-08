@@ -1,9 +1,8 @@
-import footerFacebook from '/footer-facebook.png'
-import footerTwitter from '/footer-twitter.png'
-import footerYoutube from '/footer-youtube.png'
-import footerPinterest from '/footer-pinterest.png'
-import footerPeriscope from '/footer-periscope.png'
-
+import footerFacebook from '../assets/img/footer-facebook.png'
+import footerTwitter from '../assets/img/footer-twitter.png'
+import footerYoutube from '../assets/img/footer-youtube.png'
+import footerPinterest from '../assets/img/footer-pinterest.png'
+import footerPeriscope from '../assets/img/footer-periscope.png'
 
 export default function AppFooter() {
 
@@ -12,8 +11,8 @@ export default function AppFooter() {
         <footer className="bg_footer">
             <div className="logoFooter">
             <div className="container">
-                <div className="row text-white py-4">
-                    <div className="col-2">
+                <div className="row row-cols-1 row-cols-md-3 text-white py-4">
+                    <div className="col-lg-2">
                         <ul className='list-unstyled'>
                             <li className='text-uppercase fs-3 fw-bolder'>DC Comics</li>
                             <li className='opacity-50'>Characters</li>
@@ -28,7 +27,7 @@ export default function AppFooter() {
                             <li className='opacity-50'>Shop DC Collectibles</li>
                         </ul>
                     </div>
-                    <div className="col-2">
+                    <div className="col-lg-2">
                         <ul className='list-unstyled'>
                             <li className='text-uppercase fs-3 fw-bolder'>DC</li>
                             <li className='opacity-50'>Terms Of Use</li>
@@ -44,7 +43,7 @@ export default function AppFooter() {
                             <li className='opacity-50'>Contact Us</li>
                         </ul>
                     </div>
-                    <div className="col-2">
+                    <div className="col-lg-2">
                         <ul className='list-unstyled'>
                             <li className='text-uppercase fs-3 fw-bolder text-white'>Sites</li>
                             <li className='opacity-50'>DC</li>
@@ -58,7 +57,7 @@ export default function AppFooter() {
             </div>
             <div className="second_bg">
                 <div className="container p-4 socialsLink">
-                    <div className="d-flex justify-content-between">
+                    <div className="d-flex justify-content-between gap-2">
                         <div>
                             <button className='btn rounded-0 border-primary border-2 text-white text-uppercase fw-bolder'>Sign-up Now!</button>
                         </div>

@@ -1,4 +1,4 @@
-import { Fragment as Pippo } from 'react';
+import { Fragment as Pippo } from 'react'; // giusto per ricordare come si chiama l elemento (Fragment) e l uso di as (ovvero dargli un nome)
 
 export default function AppMain() {
 

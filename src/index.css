@@ -13,7 +13,7 @@ body {
 
 .bg_footer {
   background-color: black;
-  background-image: url(/footer-bg.jpg);
+  background-image: url(./assets/img/footer-bg.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -21,7 +21,7 @@ body {
 }
 
 .logoFooter {
-  background-image: url(/dc-logo-bg.png);
+  background-image: url(./assets/img/dc-logo-bg.png);
   background-repeat: no-repeat;
   background-position: 70% 50%;
   z-index: 1;
