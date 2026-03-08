@@ -16,47 +16,47 @@ export default function AppFooter() {
                     <div className="col-2">
                         <ul className='list-unstyled'>
                             <li className='text-uppercase fs-3 fw-bolder'>DC Comics</li>
-                            <li>Characters</li>
-                            <li>Comics</li>
-                            <li>Movies</li>
-                            <li>TV</li>
-                            <li>Games</li>
-                            <li>Videos</li>
-                            <li>News</li>
+                            <li className='opacity-50'>Characters</li>
+                            <li className='opacity-50'>Comics</li>
+                            <li className='opacity-50'>Movies</li>
+                            <li className='opacity-50'>TV</li>
+                            <li className='opacity-50'>Games</li>
+                            <li className='opacity-50'>Videos</li>
+                            <li className='opacity-50'>News</li>
                             <li className='text-uppercase fs-3 fw-bolder'>Shop</li>
-                            <li>Shop DC</li>
-                            <li>Shop DC Collectibles</li>
+                            <li className='opacity-50'>Shop DC</li>
+                            <li className='opacity-50'>Shop DC Collectibles</li>
                         </ul>
                     </div>
                     <div className="col-2">
                         <ul className='list-unstyled'>
                             <li className='text-uppercase fs-3 fw-bolder'>DC</li>
-                            <li>Terms Of Use</li>
-                            <li>Privacy policy (New)</li>
-                            <li>Ad Choices</li>
-                            <li>Advertising</li>
-                            <li>Jobs</li>
-                            <li>Subscriptions</li>
-                            <li>Talent Workshops</li>
-                            <li>CPSC Certificates</li>
-                            <li>Ratings</li>
-                            <li>Shop Help</li>
-                            <li>Contact Us</li>
+                            <li className='opacity-50'>Terms Of Use</li>
+                            <li className='opacity-50'>Privacy policy (New)</li>
+                            <li className='opacity-50'>Ad Choices</li>
+                            <li className='opacity-50'>Advertising</li>
+                            <li className='opacity-50'>Jobs</li>
+                            <li className='opacity-50'>Subscriptions</li>
+                            <li className='opacity-50'>Talent Workshops</li>
+                            <li className='opacity-50'>CPSC Certificates</li>
+                            <li className='opacity-50'>Ratings</li>
+                            <li className='opacity-50'>Shop Help</li>
+                            <li className='opacity-50'>Contact Us</li>
                         </ul>
                     </div>
                     <div className="col-2">
                         <ul className='list-unstyled'>
-                            <li className='text-uppercase fs-3 fw-bolder'>Sites</li>
-                            <li>DC</li>
-                            <li>MAD Magazine</li>
-                            <li>DC Kids</li>
-                            <li>DC Universe</li>
-                            <li>DC Power Visa</li>
+                            <li className='text-uppercase fs-3 fw-bolder text-white'>Sites</li>
+                            <li className='opacity-50'>DC</li>
+                            <li className='opacity-50'>MAD Magazine</li>
+                            <li className='opacity-50'>DC Kids</li>
+                            <li className='opacity-50'>DC Universe</li>
+                            <li className='opacity-50'>DC Power Visa</li>
                         </ul>
                     </div>
                 </div>
             </div>
-            <div className="bg-secondary">
+            <div className="second_bg">
                 <div className="container p-4 socialsLink">
                     <div className="d-flex justify-content-between">
                         <div>

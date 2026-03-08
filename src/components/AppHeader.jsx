@@ -14,8 +14,7 @@ export default function AppHeader() {
                             <span className="navbar-toggler-icon"></span>
                         </button>
                         <div className="collapse navbar-collapse d-flex justify-content-end" id="navbarSupportedContent">
-                            <div className="">
-                                <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+                                <ul id="nav_link2" className="navbar-nav mb-2 mb-lg-0">
                                     <li className="nav-item">
                                         <a className="nav-link active" aria-current="page" href="#">Characters</a>
                                     </li>
@@ -47,7 +46,6 @@ export default function AppHeader() {
                                         <a className="nav-link active" aria-current="page" href="#">Shop</a>
                                     </li> 
                                 </ul>
-                            </div>
                         </div>
                     </div>
                 </nav>
