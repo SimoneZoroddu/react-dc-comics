@@ -30,7 +30,7 @@ body {
 .firstBg{
   background-image: url(./assets/img/jumbotron.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 1000px;
   min-height: 25rem;
 }
 
@@ -38,7 +38,7 @@ body {
   background-color: #0282f9;
   padding: 0.6rem 4rem;
   position: absolute;
-  left: 24%;
+  top: -0.2rem;
   translate: 0% -80%;
 }
 

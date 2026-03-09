@@ -1,8 +1,8 @@
 import AppHeader from './components/AppHeader'
+import AppMainFirstBg from './components/AppMainFirstBg'
 import AppMain from './components/AppMain'
 import AppMainIcons from './components/AppMainIcons'
 import AppFooter from './components/AppFooter'
-import AppMainFirstBg from './components/AppMainFirstBg'
 
 function App() {
 
