@@ -1,8 +1,54 @@
 import dc_logo from "/dc-logo.png" //giusto per ricordarsi come collegare dal public
 
 
+const navLinks = [
+    {
+        id: 1,
+        linkname: "Characters"
+    },
+    {
+        id: 2,
+        linkname: "Comics"
+    },
+    {
+        id: 3,
+        linkname: "Movies"
+    },
+    {
+        id: 4,
+        linkname: "TV"
+    },
+    {
+        id: 5,
+        linkname: "Games"
+    },
+    {
+        id: 6,
+        linkname: "Collectibles"
+    },
+    {
+        id: 7,
+        linkname: "Videos"
+    },
+    {
+        id: 8,
+        linkname: "Fans"
+    },
+    {
+        id: 9,
+        linkname: "News"
+    },
+    {
+        id: 10,
+        linkname: "Shop"
+    }
+]
+
+
+
+
 export default function AppHeader() {
-    
+
     return (
         <header>
             <div className="container">
@@ -13,48 +59,16 @@ export default function AppHeader() {
                             <span className="navbar-toggler-icon"></span>
                         </button>
                         <div className="collapse navbar-collapse d-flex justify-content-end" id="navbarSupportedContent">
-                                <ul id="nav_link2" className="navbar-nav mb-2 mb-lg-0">
-                                    <li className="nav-item position-relative">
-                                        <a className="nav-link active fw-bolder" aria-current="page" href="#">Characters</a>
-                                        <span className="bar_under"></span>
-                                    </li>
-                                    <li className="nav-item position-relative">
-                                        <a className="nav-link active fw-bolder" aria-current="page" href="#">Comics</a>
-                                        <span className="bar_under"></span>
-                                    </li>
-                                    <li className="nav-item position-relative">
-                                        <a className="nav-link active fw-bolder" aria-current="page" href="#">Movies</a>
-                                        <span className="bar_under"></span>
-                                    </li>
-                                    <li className="nav-item position-relative">
-                                        <a className="nav-link active fw-bolder" aria-current="page" href="#">TV</a>
-                                        <span className="bar_under"></span>
-                                    </li>
-                                    <li className="nav-item position-relative">
-                                        <a className="nav-link active fw-bolder" aria-current="page" href="#">Games</a>
-                                        <span className="bar_under"></span>
-                                    </li>
-                                    <li className="nav-item position-relative">
-                                        <a className="nav-link active fw-bolder" aria-current="page" href="#">Collectibles</a>
-                                        <span className="bar_under"></span>
-                                    </li>
-                                    <li className="nav-item position-relative">
-                                        <a className="nav-link active fw-bolder" aria-current="page" href="#">Videos</a>
-                                        <span className="bar_under"></span>
-                                    </li>
-                                    <li className="nav-item position-relative">
-                                        <a className="nav-link active fw-bolder" aria-current="page" href="#">Fans</a>
-                                        <span className="bar_under"></span>
-                                    </li>
-                                    <li className="nav-item position-relative">
-                                        <a className="nav-link active fw-bolder" aria-current="page" href="#">News</a>
-                                        <span className="bar_under"></span>
-                                    </li>
-                                    <li className="nav-item position-relative">
-                                        <a className="nav-link active fw-bolder" aria-current="page" href="#">Shop</a>
-                                        <span className="bar_under"></span>
-                                    </li> 
-                                </ul>
+                            <ul id="nav_link2" className="navbar-nav mb-2 mb-lg-0">
+                                {
+                                    navLinks.map(navLink => (
+                                        <li className="nav-item position-relative" key={navLink.id}>
+                                            <a className="nav-link active fw-bolder" aria-current="page" href="#">{navLink.linkname}</a>
+                                            <span className="bar_under"></span>
+                                        </li>
+                                    ))
+                                }
+                            </ul>
                         </div>
                     </div>
                 </nav>
