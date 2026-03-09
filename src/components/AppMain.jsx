@@ -1,4 +1,7 @@
 import { Fragment as Pippo } from 'react'; // giusto per ricordare come si chiama l elemento (Fragment) e l uso di as (ovvero dargli un nome)
+import comicsObject from '../assets/comics'
+
+
 
 export default function AppMain() {
 
@@ -7,10 +10,19 @@ export default function AppMain() {
         <Pippo>
             <main className="bg-black">
                 <div className="container py-4">
-                    <div className="row">
-                        <div className="col text-white fs-1">
-                            --&gt;Content goes here&lt;--
-                        </div>
+                    <div className="row row-cols-1 row-cols-md-3 row-cols-lg-6">
+                        {
+                            comicsObject.map(comic => (
+                                <div className="col text-white fs-1" key={comic.id}>
+                                    <div className="card text-center text-white bg-black">
+                                        <img style={{ minHeight: '18rem'}} src={comic.thumb} className="card-img-top img-fluid" alt={comic.series}/>
+                                        <div className="card-body">
+                                            <h5 className="card-title">{comic.title}</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            ))
+                        }
                     </div>
                 </div>
             </main >

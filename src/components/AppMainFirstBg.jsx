@@ -1,6 +1,3 @@
-import jumbotronBG from '../assets/img/jumbotron.jpg'
-
-
 export default function AppMainFirstBg() {
 
 
