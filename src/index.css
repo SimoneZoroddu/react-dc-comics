@@ -34,6 +34,13 @@ body {
   min-height: 25rem;
 }
 
+.current_series{
+  background-color: #0282f9;
+  padding: 0.6rem 4rem;
+  position: absolute;
+  left: 24%;
+  translate: 0% -80%;
+}
 .second_bg {
   background-color: #303030;
 }
