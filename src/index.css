@@ -27,6 +27,13 @@ body {
   z-index: 1;
 }
 
+.firstBg{
+  background-image: url(./assets/img/jumbotron.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 25rem;
+}
+
 .second_bg {
   background-color: #303030;
 }
