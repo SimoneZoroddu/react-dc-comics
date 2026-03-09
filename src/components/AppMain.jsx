@@ -16,7 +16,7 @@ export default function AppMain() {
                             comicsObject.map(comic => (
                                 <div className="col text-white fs-1" key={comic.id}>
                                     <div className="card text-center text-white bg-black">
-                                        <img style={{ minHeight: '18rem' }} src={comic.thumb} className="card-img-top img-fluid" alt={comic.series} />
+                                        <img style={{ minHeight: '18rem' }} src={comic.thumb} className="card-img-top img-fluid img_comic object-fit-cover" alt={comic.series} />
                                         <div className="card-body">
                                             <h5 className="card-title">{comic.title}</h5>
                                         </div>

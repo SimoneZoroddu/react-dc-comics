@@ -41,9 +41,11 @@ body {
   left: 24%;
   translate: 0% -80%;
 }
+
 .second_bg {
   background-color: #303030;
 }
+
 
 #containerIcon {
   img {
