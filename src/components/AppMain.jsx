@@ -8,6 +8,7 @@ export default function AppMain() {
 
     return (
         <Pippo>
+            <div className='firstBg'></div>
             <main className="bg-black p-3">
                 <div className="container py-4 text-center position-relative">
                     <div className='text-white current_series'>CURRENT SERIES</div>
