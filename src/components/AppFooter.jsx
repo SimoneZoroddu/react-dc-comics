@@ -4,114 +4,131 @@ import footerYoutube from '../assets/img/footer-youtube.png'
 import footerPinterest from '../assets/img/footer-pinterest.png'
 import footerPeriscope from '../assets/img/footer-periscope.png'
 
-
-const linksFooter1 = [
+const linkFooterProva = [
     {
         id: 1,
-        linkname: "Characters"
+        linkname: "DC Comics",
+        submenu: [
+            {
+                id: 1,
+                linkname: "Characters"
+            },
+            {
+                id: 2,
+                linkname: "Comics"
+            },
+            {
+                id: 3,
+                linkname: "Movies"
+            },
+            {
+                id: 4,
+                linkname: "TV"
+            },
+            {
+                id: 5,
+                linkname: "Games"
+            },
+            {
+                id: 6,
+                linkname: "Videos"
+            },
+            {
+                id: 7,
+                linkname: "News"
+            }
+        ],
+        linkname2: 'Shop',
+        submenu2: [
+            {
+                id: 1,
+                linkname: "Shop DC"
+            },
+            {
+                id: 2,
+                linkname: "Shop DC Collectibles"
+            }
+        ]
     },
     {
         id: 2,
-        linkname: "Comics"
+        linkname: "DC",
+        submenu: [
+            {
+                id: 1,
+                linkname: "Terms Of Use"
+            },
+            {
+                id: 2,
+                linkname: "Privacy policy (New)"
+            },
+            {
+                id: 3,
+                linkname: "Ad Choices"
+            },
+            {
+                id: 4,
+                linkname: "Advertising"
+            },
+            {
+                id: 5,
+                linkname: "Jobs"
+            },
+            {
+                id: 6,
+                linkname: "Subscriptions"
+            },
+            {
+                id: 7,
+                linkname: "Talent Workshops"
+            },
+            {
+                id: 8,
+                linkname: "CPSC Certificates"
+            },
+            {
+                id: 9,
+                linkname: "Ratings"
+            },
+            {
+                id: 10,
+                linkname: "Shop Help"
+            },
+            {
+                id: 11,
+                linkname: "Contact Us"
+            }
+        ],
+        linkname2: '',
+        submenu2:  []
     },
     {
         id: 3,
-        linkname: "Movies"
-    },
-    {
-        id: 4,
-        linkname: "TV"
-    },
-    {
-        id: 5,
-        linkname: "Games"
-    },
-    {
-        id: 6,
-        linkname: "Videos"
-    },
-    {
-        id: 7,
-        linkname: "News"
-    }
-]
-const linksFooter2 = [
-    {
-        id: 1,
-        linkname: "Shop DC"
-    },
-    {
-        id: 2,
-        linkname: "Shop DC Collectibles"
-    }
-]
-const linksFooter3 = [
-    {
-        id: 1,
-        linkname: "Terms Of Use"
-    },
-    {
-        id: 2,
-        linkname: "Privacy policy (New)"
-    },
-    {
-        id: 3,
-        linkname: "Ad Choices"
-    },
-    {
-        id: 4,
-        linkname: "Advertising"
-    },
-    {
-        id: 5,
-        linkname: "Jobs"
-    },
-    {
-        id: 6,
-        linkname: "Subscriptions"
-    },
-    {
-        id: 7,
-        linkname: "Talent Workshops"
-    },
-    {
-        id: 8,
-        linkname: "CPSC Certificates"
-    },
-    {
-        id: 9,
-        linkname: "Ratings"
-    },
-    {
-        id: 10,
-        linkname: "Shop Help"
-    },
-    {
-        id: 11,
-        linkname: "Contact Us"
-    }
-]
-
-const linksFooter4 = [
-    {
-        id: 1,
-        linkname: "DC"
-    },
-    {
-        id: 2,
-        linkname: "MAD Magazine"
-    },
-    {
-        id: 3,
-        linkname: "DC Kids"
-    },
-    {
-        id: 4,
-        linkname: "DC Universe"
-    },
-    {
-        id: 5,
-        linkname: "DC Power Visa"
+        linkname: "Shop",
+        submenu: [
+            {
+                id: 1,
+                linkname: "DC"
+            },
+            {
+                id: 2,
+                linkname: "MAD Magazine"
+            },
+            {
+                id: 3,
+                linkname: "DC Kids"
+            },
+            {
+                id: 4,
+                linkname: "DC Universe"
+            },
+            {
+                id: 5,
+                linkname: "DC Power Visa"
+            }
+        ],
+        linkname2: '',
+        submenu2:  []
     }
 ]
 
@@ -120,13 +137,7 @@ const linksFooter4 = [
 
 
 export default function AppFooter() {
-    
-    function linksFooter(array) {
-        const markup = array.map(link => (
-            <li className='opacity-50' key={link.id}>{link.linkname}</li>
-        ))
-        return markup
-    }
+
 
 
     return (
@@ -134,36 +145,26 @@ export default function AppFooter() {
             <div className="logoFooter">
                 <div className="container">
                     <div className="row row-cols-1 row-cols-md-3 text-white py-4">
-                        <div className="col-lg-2">
-                            <h2 className='text-uppercase fs-3 fw-bolder'>DC Comics</h2>
-                            <ul className='list-unstyled'>
-                                {
-                                    linksFooter(linksFooter1)
-                                }
-                            </ul>
-                            <h2 className='text-uppercase fs-3 fw-bolder'>Shop</h2>
-                            <ul className='list-unstyled'>
-                                {
-                                    linksFooter(linksFooter2)
-                                }
-                            </ul>
-                        </div>
-                        <div className="col-lg-2">
-                            <h2 className='text-uppercase fs-3 fw-bolder'>DC</h2>
-                            <ul className='list-unstyled'>
-                                {
-                                    linksFooter(linksFooter3)
-                                }
-                            </ul>
-                        </div>
-                        <div className="col-lg-2">
-                            <h2 className='text-uppercase fs-3 fw-bolder'>Sites</h2>
-                            <ul className='list-unstyled'>
-                                {
-                                    linksFooter(linksFooter4)
-                                }
-                            </ul>
-                        </div>
+
+                        {
+                            linkFooterProva.map(items => (
+                                    <div className="col-lg-2" key={items.id}>
+                                        <h2 className='text-uppercase fs-3 fw-bolder'>{items.linkname}</h2>
+                                        <ul className='list-unstyled'>
+                                            {items.submenu.map(submenu => (
+                                                <li className='opacity-50' key={submenu.id}>{submenu.linkname}</li>
+                                            ))}
+                                        </ul>
+                                        <h2 className='text-uppercase fs-3 fw-bolder'>{items.linkname2}</h2>
+                                        <ul className='list-unstyled'>
+                                            {items.submenu2.map(submenu => (
+                                                <li className='opacity-50' key={submenu.id}>{submenu.linkname}</li>
+                                            ))}
+                                        </ul>
+                                    </div>
+                            ))
+                        }
+
                     </div>
                 </div>
                 <div className="second_bg">
