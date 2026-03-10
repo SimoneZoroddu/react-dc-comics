@@ -16,7 +16,7 @@ export default function AppMain() {
                     <div className="row row-cols-1 row-cols-md-3 row-cols-lg-6">
                         {
                             comicsObject.map(comic => (
-                                <AppCard key={comic.id} props={comic} />
+                                <AppCard key={comic.id} comics={comic} />
                             ))
                         }
                     </div>
