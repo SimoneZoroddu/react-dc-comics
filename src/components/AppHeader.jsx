@@ -58,8 +58,8 @@ export default function AppHeader() {
                         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span className="navbar-toggler-icon"></span>
                         </button>
-                        <div className="collapse navbar-collapse d-flex justify-content-end" id="navbarSupportedContent">
-                            <ul id="nav_link2" className="navbar-nav mb-2 mb-lg-0">
+                        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul id="nav_link2" className="navbar-nav ms-auto">
                                 {
                                     navLinks.map(navLink => (
                                         <li className="nav-item position-relative" key={navLink.id}>

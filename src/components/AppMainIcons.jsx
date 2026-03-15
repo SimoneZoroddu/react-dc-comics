@@ -21,7 +21,7 @@ export default function AppMainIcons() {
                         <img className='img-fluid' src={buySubscriptionsComics} alt="buyDigitalComics" /> <span className='d-none d-md-inline'>Subscription</span>
                     </div>
                     <div className="col d-flex flex-wrap align-items-center justify-content-center">
-                        <img className='img-fluid' src={buyShopLocatorComics} alt="buyDigitalComics" /> <span className='d-none d-md-inline'>Comic Shop Locator</span>
+                        <img style={{ width: "2rem" }} className='img-fluid' src={buyShopLocatorComics} alt="buyDigitalComics" /> <span className='d-none d-md-inline'>Comic Shop Locator</span>
                     </div>
                     <div className="col d-flex flex-wrap align-items-center justify-content-center">
                         <img className='img-fluid' src={buyPowerVisaComics} alt="buyDigitalComics" /> <span className='d-none d-md-inline'>DC Power visa</span>
@@ -30,4 +30,4 @@ export default function AppMainIcons() {
             </div>
         </div>
     )
-}
+} 
